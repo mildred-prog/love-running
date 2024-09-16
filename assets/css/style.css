@@ -1,22 +1,29 @@
+
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap');
+;
+
 /* Asterix wildcard added to overide default styles*/
 *{
     padding:0;
     margin: 0;
     box-sizing: border-box;
 }
+
 body{
     min-height: 100vh;
     display:flex;
     flex-direction: column;
     /*Generic project styles*/
     color: #3a3a3a;
+    font-family: "lato", sans-serif;
 }
 header{
     background-color: blue;
 }
 main{
     background-color: chartreuse;
-    /*Make main element take any surplus to push the footrr down*/
+    /*Make main element take any surplus to push the footer down*/
     flex: 1 0 auto;
 }
 footer{
