@@ -21,6 +21,9 @@ body{
 header{
     background-color: blue;
 }
+h1{
+    font-family: "oswald" sans-serif;
+}
 main{
     background-color: chartreuse;
     /*Make main element take any surplus to push the footer down*/
